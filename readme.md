@@ -1,1 +1,1 @@
-yt-dlp -f ba[ext!=webm] -o "%(title)s - %(channel)s.%(ext)s" --embed-metadata --yes-playlist --parse-metadata "%(&Piano)s:%(meta_genre)s" --parse-metadata "%(playlist)s:%(meta_album)s" -P "./folder" "url"
+yt-dlp -f ba[ext!=webm] -o "%(title)s - %(channel)s.%(ext)s" --embed-metadata --yes-playlist --parse-metadata "%(&Piano)s:%(meta_genre)s" --parse-metadata "%(playlist)s:%(meta_album)s" -P "./folder" -I 1:100 "url"
